@@ -1,0 +1,34 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    width: 500px;
+    background-color: aqua;
+}
+
+.hhh{
+    color: black;
+    border: 1px black solid;
+    text-align: center;
+    text-decoration: underline;
+    border-width: 0.3cqmax;
+    border-radius: 9%;
+}
+.lll{
+    color: red;
+    border: 2px black solid;
+    text-align: center;
+    
+}
+.sss{
+    border: 2px black solid;
+    border-top: 0;
+    border-collapse: collapse;
+}
+.couscous_du_jour{
+    background-color: rgb(85, 85, 85);
+    color: rgb(207, 207, 207);
+    text-align: center;
+}
