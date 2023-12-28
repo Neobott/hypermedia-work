@@ -1,0 +1,50 @@
+
+body {
+    width: 400px;
+  }
+  
+  form {
+    border: solid blue 2px;
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    width: 150px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  fieldset {
+    padding-top: 10px;
+  }
+  
+  .legend-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  legend {
+    text-align: center;
+  }
+  
+  .div-inline {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .div-child {
+    width: 150px;
+  }
+  
+  h4 {
+    text-align: center;
+  }

@@ -1,14 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./list.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Me" />
+    <link rel="stylesheet" href="./list.css" />
+    <title>Form</title>
+  </head> 
+  <body>
+    <!-- Parent li chad kolchi -->
+    <main>
+      <!-- Section 1 -->
+      <form>
+        <!-- Nom -->
+        <div class="container">
+          <label for="nom" class="nom">Nom</label>
+          <input type="text" name="nom" />
+        </div>
 
-    
-    
-</body>
+        <!-- Prenom -->
+        <div class="container">
+          <label>Prenom</label>
+          <input type="text" />
+        </div>
+
+        <!-- Jours -->
+        <div class="container">
+          <label>Nombre de Jours</label>
+          <input type="number" />
+        </div>
+
+        <!-- DDN -->
+        <div class="container">
+          <label>Date de Naissance</label>
+          <input type="date" />
+        </div>
+
+        <!-- Mot de passe -->
+        <div class="container">
+          <label>Mot de passe</label>
+          <input type="password" />
+        </div>
+
+        <div class="btn-container">
+          <button>Submit</button>
+          <button>Reset</button>
+        </div>
+      </form>
+
+      <!-- Section 2 -->
+      <form>
+        <fieldset>
+          <legend>Lorem ipsum, dolor sit amet consectetur</legend>
+
+          <section class="legend-container">
+            <div>
+              <input type="radio" />
+              <label for="email">Email</label>
+            </div>
+
+            <div>
+              <input type="radio" />
+              <label for="Tel">Tel</label>
+            </div>
+
+            <div>
+              <input type="radio" />
+              <label for="courrier">Courrier</label>
+            </div>
+          </section>
+
+          <div class="legend-container">
+            <button>Envoyer</button>
+          </div>
+        </fieldset>
+      </form>
+
+      <!-- Section 3 -->
+      <form>
+        <h4>Lorem ipsum dolor sit.</h4>
+
+        <div class="container">
+          <label for="nom" class="nom">Nom</label>
+          <input type="text" name="nom" required />
+        </div>
+
+        <div class="container">
+          <label>Prenom</label>
+          <input type="text" />
+        </div>
+
+        <div class="div-inline">
+          <div class="div-child">
+            <label for="ae">Avec Enfants</label>
+            <input type="checkbox" />
+          </div>
+          <input type="number" />
+        </div>
+
+        <div class="container">
+          <label>Ville</label>
+          <select>
+            <option value="Agadir">Agadir</option>
+            <option value="Casa">Casa</option>
+            <option value="Marrakech">Marrakech</option>
+          </select>
+        </div>
+
+        <div class="container">
+          <label>Email</label>
+          <input type="email" required />
+        </div>
+
+        <h4>Votre Demande</h4>
+        <textarea cols="45" rows="5"></textarea>
+
+        <div class="legend-container">
+          <button>Envoyer</button>
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
