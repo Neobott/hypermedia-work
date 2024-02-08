@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+    padding: 10px;
+    gap: 10px;
+    font-weight: bolder;
+}
+#inp1, #inp3{
+    background-color: rgb(164, 235, 248);
+    color:red;
+}
+#inp2{
+    background-color: greenyellow;
+    color:red;
+}
+button{
+    padding: 2px 5px;
+}
